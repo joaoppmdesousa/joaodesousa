@@ -1,3 +1,12 @@
+
+/*  tailwind    */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ 
+
+
+
 body {
 
     background: rgb(252,158,199);
