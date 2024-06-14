@@ -1,0 +1,29 @@
+
+/*  tailwind    */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ 
+
+
+
+body {
+
+    background: rgb(252,158,199);
+    background: radial-gradient(circle, rgba(252,158,199,1) 25%, rgba(255,217,164,1) 100%);
+
+    & h1 {
+            text-align: center;
+    }
+}
+
+
+.mainDiv {
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    font-family: 'Monda', sans-serif;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInN0eWxlcy5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEiLCJmaWxlIjoib3V0cHV0LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIlxyXG4vKiAgdGFpbHdpbmQgICAgKi9cclxuQHRhaWx3aW5kIGJhc2U7XHJcbkB0YWlsd2luZCBjb21wb25lbnRzO1xyXG5AdGFpbHdpbmQgdXRpbGl0aWVzO1xyXG4gXHJcblxyXG5cclxuXHJcbmJvZHkge1xyXG5cclxuICAgIGJhY2tncm91bmQ6IHJnYigyNTIsMTU4LDE5OSk7XHJcbiAgICBiYWNrZ3JvdW5kOiByYWRpYWwtZ3JhZGllbnQoY2lyY2xlLCByZ2JhKDI1MiwxNTgsMTk5LDEpIDI1JSwgcmdiYSgyNTUsMjE3LDE2NCwxKSAxMDAlKTtcclxuXHJcbiAgICAmIGgxIHtcclxuICAgICAgICAgICAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG4gICAgfVxyXG59XHJcblxyXG5cclxuLm1haW5EaXYge1xyXG4gICAgZGlzcGxheTogZmxleDtcclxuICAgIGp1c3RpZnktY29udGVudDogY2VudGVyO1xyXG59XHJcblxyXG5ib2R5IHtcclxuICAgIGZvbnQtZmFtaWx5OiAnTW9uZGEnLCBzYW5zLXNlcmlmO1xyXG59Il19 */
