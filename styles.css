@@ -1,11 +1,4 @@
 
-/*  tailwind    */
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
- 
-
-
 
 body {
 
@@ -26,3 +19,4 @@ body {
 body {
     font-family: 'Monda', sans-serif;
 }
+
