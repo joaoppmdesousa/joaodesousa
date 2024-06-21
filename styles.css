@@ -3,7 +3,10 @@
 body {
 
     background: rgb(255,176,176);
-background: linear-gradient(228deg, rgba(255,176,176,1) 8%, rgba(255,201,243,0.9859593495601365) 35%, rgba(255,245,193,0.9859593495601365) 64%, rgba(255,211,153,1) 95%);
+    background: -moz-linear-gradient(228deg, rgba(255,176,176,1) 8%, rgba(255,201,243,0.9859593495601365) 35%, rgba(255,245,193,0.9859593495601365) 64%, rgba(255,211,153,1) 95%);
+    background: -webkit-linear-gradient(228deg, rgba(255,176,176,1) 8%, rgba(255,201,243,0.9859593495601365) 35%, rgba(255,245,193,0.9859593495601365) 64%, rgba(255,211,153,1) 95%);
+    background: linear-gradient(228deg, rgba(255,176,176,1) 8%, rgba(255,201,243,0.9859593495601365) 35%, rgba(255,245,193,0.9859593495601365) 64%, rgba(255,211,153,1) 95%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffb0b0",endColorstr="#ffd399",GradientType=1);
 
     & h1 {
             text-align: center;
